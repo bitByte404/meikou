@@ -27,6 +27,7 @@ struct FlexibleCapabilitySample1 {
         .fontSize(40)
       Column() {
         Row() {
+          // 均分
           // 通过flexGrow和flexShrink属性，将多余的空间全部分配给图片，将不足的空间全部分配给两侧空白区域。
           Row()
             .width(150)
